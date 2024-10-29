@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIT</title>
+
+    <!-- libreria fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+
+    <link rel="icon" href="img/logo.png">
+
+    <!-- css local -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mobil.css">
+    
+    <!-- librerias de css -->
+    <link rel="stylesheet" href="./CSS/fancybox.css">
+    <link rel="stylesheet" href="./CSS/animate.css">
+    
+    <!-- Libreria JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+
+
+<body>
+
+  <!-- menu  -->
+    <header class="menu" id="navbar">
+        <div class="header container">
+            <a class="header-logo" href="/"><img src="./img/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <ul class="navbar__links" id="nav">
+                <li><a class="navbar__link" href="#">HOME</a></li>
+                <li><a class="navbar__link" href="#">SERVICES</a></li>
+                <li><a class="navbar__link" href="#">GALLERY</a></li>
+                <li><a class="navbar__link" href="#">COACHES</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+    </header>
+    
+    <!-- contenedor imagenes  -->
+    <section class="slide">
+        <ul class="rslides">
+            <li><img src="img/slide1.jpg" alt=""></li>
+            <li><img src="img/slide2.jpg" alt=""></li>
+            <li><img src="img/slide3.jpg" alt=""></li>
+        </ul>
+        <div class="slide__information">
+            <h1 class="slide__title">Best <br>fitness</h1>
+            <p class="slide__text">
+                Our club encourages wellness by providing top-notch equipment, first-class instructors,
+                innovative classes, and qualified staff.
+            </p>
+            <a class="slide__btn" href="#">join now</a>
+        </div>
+    </section>
+
+    <!-- Seccion de servicios  -->
+    <section class="">
+        <h1 class="text-service">Services</h1>
+        
+        <h1 class="text-service-mobil">Nuestros Servicios</h1>
+        <div class="border-mobil"></div>
+        <div class="service container">
+            <div class="card">
+                <div class="card__icon wow animate__animated animate__fadeInDown"><i class="fas fa-award"></i></div>
+                <h3 class="card__title wow animate__animated animate__backInLeft">quality service</h3>
+                <p>
+                    At our fitness studio, you can experience the best level of customer service.
+                </p>
+            </div>
+
+            <div class="card">
+
+                <div class="card__icon wow animate__animated animate__fadeInDown"><i class="fas fa-dumbbell"></i></div>
+                <h3 class="card__title wow animate__animated animate__backInLeft">spacious gym</h3>
+                <p>
+                    Our gym has enough place for all kinds of workouts and a wide variety of equipment.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card__icon wow animate__animated animate__fadeInDown"><i class="fas fa-file-invoice"></i></div>
+                <h3 class="card__title wow animate__animated animate__backInLeft">unique fitness programs</h3>
+                <p>
+                    Our coaches have developed more than 50 fitness programs and workouts for you.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card__icon wow animate__animated animate__fadeInDown"><i class="fas fa-users"></i></div>
+                <h3 class="card__title wow animate__animated animate__backInLeft">group classes</h3>
+                <p>
+                    If you prefer training with friends, then our group classes have what
+                    you need.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion de imagenes  -->
+    <main class="main-bg main">
+       
+        <!-- seccion de fotos -->
+        <div class="gallery grid2">
+            <a href="./img/foto1.jpg" data-fancybox="gallery" data-caption="Foto 1">
+                <figure class="gallery__img">
+                    <img src="./img/foto1.jpg" alt="">
+                </figure>     
+            </a>
+
+            <a href="./img/foto2.jpg" data-fancybox="gallery" data-caption="Foto 2">
+                <figure class="gallery__img">
+                    <img src="./img/foto2.jpg" alt="">
+                </figure>     
+            </a>
+
+            <a href="./img/foto3.jpg" data-fancybox="gallery" data-caption="Foto 3">
+                <figure class="gallery__img">
+                    <img src="./img/foto3.jpg" alt="">
+                </figure>     
+            </a>
+
+            <a href="./img/foto4.jpg" data-fancybox="gallery" data-caption="Foto 4">
+                <figure class="gallery__img">
+                    <img src="./img/foto4.jpg" alt="">
+                </figure>     
+            </a>
+        </div>
+        
+        <!-- seccion de contenido -->
+        <div class="gallery-text container grid1">
+            <h2 class="gallery__title">gallery <br> <span class="gallery__titile-span">fitness</span> club</h2>
+            <p>
+                Profit is the fitness club that makes fitness totally accessible to everybody. We promise to help people from all walks of life 
+                achieve their individual health and fitness goals - no matter their shape, age, and experience.
+            </p>
+            <a class="slide__btn" href="#">join now</a>
+        </div>
+        
+    </main>
+
+
+    <!-- seccion pie de pagina  -->
+    <footer class="footer-content">
+        <div class="chevron-up  border">
+            <a href="#navbar"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+        <div class="footer container">
+            <span class="footer-txt">© 2020 Profit. Privacy Policy</span>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- codigo Javascript  -->
+    <script src="./js/responsiveslides.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+    </script>
+    
+    <script src="./js/fancybox.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
+    
+    <!-- codigo js para abrir y cerrar menu -->
+    <script>
+        $("#hamburger").click(function(){
+            $("#nav").slideToggle();
+        });
+    </script>
+    
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+</html>
